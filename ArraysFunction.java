@@ -12,8 +12,12 @@ public class ArraysFunction {
         update(marks, Nonchangable);
 
         for (int i=0; i<marks.length; i++) {
-            System.out.print(marks[i] + " ");
+            System.out.println(marks[i] + " ");
         }
         System.out.println(Nonchangable);
+
+        // System.out.println(marks[0]);
+        // System.out.println(marks[1]);
+        // System.out.println(marks[2]);
     }
 }
